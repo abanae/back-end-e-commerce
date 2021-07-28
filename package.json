@@ -6,6 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
+    "watch": "nodemon server.js",
     "seed": "node seeds/index.js"
   },
   "repository": {
@@ -21,6 +22,7 @@
   "homepage": "https://github.com/abanae/back-end-e-commerce#readme",
   "dependencies": {
     "dotenv": "^10.0.0",
+    "express": "^4.17.1",
     "mysql2": "^2.2.5",
     "sequelize": "^6.6.5"
   }
