@@ -39,8 +39,8 @@ const { Category, Product } = require('../../models');
 //   }
 // });
 
+// create a new category
 router.post('/', (req, res) => {
-  // create a new category
   try {
     const newCategory = await Category.create({
       category_name: req.body.category_name,
@@ -51,8 +51,9 @@ router.post('/', (req, res) => {
   }
 });
 
+// Update a category by its id
 // router.put('/:id', (req, res) => {
-//   // update a category by its `id` value
+
 //   try {
     
 //   } catch (err) {
@@ -60,14 +61,22 @@ router.post('/', (req, res) => {
 //   }
 // });
 
-// router.delete('/:id', (req, res) => {
-//   // delete a category by its `id` value
-//   try {
-    
-//   } catch (err) {
-    
-//   }
-// });
+// Deleting Category by its id
+router.delete('/:id', (req, res) => {
+  try {
+    const deletegCategory = await Category.destroy({
+      where: {
+        id: req.params.id,
+      },
+    });
+    if (!deleteCategory){
+      return res.status(404).json({ message: 'There is no category with that id!'});
+    }
+    res.json(deletegCategory);
+  } catch (err) {
+    res.status(404).json(err);
+  }
+});
 
 module.exports = router;
 
