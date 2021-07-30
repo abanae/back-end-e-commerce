@@ -15,7 +15,7 @@ router.get('/', async (req, res) => {
   }
 });
 
-// get one product
+// Find product by primary key
 router.get('/:id', async (req, res) => {
   try {
     const oneProduct = await Product.findByPk({
