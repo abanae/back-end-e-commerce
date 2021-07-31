@@ -33,7 +33,7 @@ A Back End e-commerce site using modified starter code.A CLI application using E
 ## App Demo:
 - Create Schema and Seed data
 
-![CLI](./assets/img/CLI.gif)
+![CLI](https://media.giphy.com/media/xwlmG5QJxBmCeH9YdD/giphy.gif)
 
 - GET routes to return all categories, all products
 
