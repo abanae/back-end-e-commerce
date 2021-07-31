@@ -41,7 +41,7 @@ A Back End e-commerce site using modified starter code.A CLI application using E
 
 - GET routes to return a single category, a single product, and a single tag
 
-![]()
+![GET BY PK](https://media.giphy.com/media/HDy7kdGaByOeHVl1jN/giphy.gif)
 
 - POST, PUT, and DELETE routes for categories
 
