@@ -8,6 +8,7 @@ A Back End e-commerce site using modified starter code.A CLI application using E
 
    - [Installation](#installation)
    - [Usage](#usage)
+   - [Demo](#app-demo)
    - [Tests](#testing)
    - [Questions](#additional-info)
 
@@ -32,7 +33,7 @@ A Back End e-commerce site using modified starter code.A CLI application using E
 ## App Demo:
 - Create Schema and Seed data
 
-![]()
+![CLI](./assets/img/CLI.gif)
 
 - GET routes to return all categories, all products
 
