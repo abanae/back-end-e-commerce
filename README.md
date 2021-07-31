@@ -37,7 +37,7 @@ A Back End e-commerce site using modified starter code.A CLI application using E
 
 - GET routes to return all categories, all products
 
-![]()
+![GET](https://media.giphy.com/media/RKCquazGBbiOLD5slH/giphy.gif)
 
 - GET routes to return a single category, a single product, and a single tag
 
@@ -47,11 +47,11 @@ A Back End e-commerce site using modified starter code.A CLI application using E
 
 ![]()
 
-- POST, PUT, and DELETE routes for Tags
+- POST, PUT, and DELETE routes for products
 
 ![]()
 
-- POST, PUT, and DELETE routes for products
+- POST, PUT, and DELETE routes for tags
 
 ![]()
 
