@@ -59,7 +59,7 @@ A Back End e-commerce site using modified starter code.A CLI application using E
 
 - POST, PUT, and DELETE routes for tags
 
-![]()
+![POST & PUT](https://media.giphy.com/media/b7X30tvkOfow21q6T3/giphy.gif)
 
  
 
@@ -74,6 +74,12 @@ A Back End e-commerce site using modified starter code.A CLI application using E
 - GitHub - Hosts repository that can be deployed to GitHub Pages. 
 
 
+## Full Demo Videos:
+- [GET ALL](https://drive.google.com/file/d/1mqVGnmwhijFSwrk8wqT5Up9QxyBgJ1E6/view)
+- [GET By Single ID](https://drive.google.com/file/d/18XcKAULaJgQU8SBsIx9ZnvfakAU8z0Vd/view)
+- [Category Routes](https://drive.google.com/file/d/1SmjT4Lddis4-yrhyJUnnilDq3Rr3305b/view) 
+- [Product Routes](https://drive.google.com/file/d/1SQmA7ehTUGpIRGUzwrRJHLaFNJi4fXxv/view)
+- [Tag Routes](https://drive.google.com/file/d/1D2ANeoLT-j5iUxPOL8gXT9wBcEoBPWMx/view) 
 
 ## Additional Info:
 :octocat: [Ana Abad](https://github.com/abanae)

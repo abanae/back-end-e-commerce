@@ -32,34 +32,33 @@ router.get('/:id', async (req, res) => {
 });
 
 // Create a new tag
-router.post('/', async (req, res) => {
+router.post('/', async(req, res) => {
   try {
-    const newTag = await Tag.create({
-      tag_id: req.body.tag_id,
-    });
-    res.json(newTag);
+    const newTag = await Tag.create(req.body);
+    res.status(200).json(newTag);
   } catch (err) {
-    res.json(err);
+    res.status(400).json(err);
   }
+
 });
 
 // Update a tag by its id
-router.put('/:id', async (req, res) => {
+router.put('/:id', async(req, res) => {
   try {
-    const updateTag = await Tag.update({
-      tag_id: req.body.tag_id,
-    },
-      {
-        where: {
-          id: req.body.id,
-        },
-      });
-    if (!updateTag) {
-      return res.status(404).json({ message: 'There is no tag with that id!' });
+    const updateTag = await Tag.update(req.body, {
+      where: {
+        id: req.params.id,
+      }
+
+    });
+    if (!updateTag[0]) {
+      res.status(404).json({ message: 'No Tag with this id!' })
+      return;
     }
-    res.json(updateTag);
+    res.status(200).json(updateTag);
+
   } catch (err) {
-    res.json(err);
+    res.status(500).json(err);
   }
 });
 
