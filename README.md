@@ -55,7 +55,7 @@ A Back End e-commerce site using modified starter code.A CLI application using E
 
 - POST, PUT, and DELETE routes for products
 
-![]()
+![POST & PUT](https://media.giphy.com/media/2I4oatlNtzeasHp2K3/giphy.gif)
 
 - POST, PUT, and DELETE routes for tags
 
