@@ -24,7 +24,12 @@ A Back End e-commerce site using modified starter code.A CLI application using E
 
 
 ## Usage:
-2. Be sure to include your MySQL user/password information in .env file.  
+2. Be sure to include your MySQL user/password information in .env file. 
+
+- `DB_NAME='ecommerce_db'`
+- `DB_USER='root'`
+- `DB_PW='xxx'`
+
 3. Seed file by using, `npm run seed`. 
 4. Run the app by using, `npm start`. 
 5. Navigate to http://localhost:3001/ in POSTMAN
@@ -45,7 +50,8 @@ A Back End e-commerce site using modified starter code.A CLI application using E
 
 - POST, PUT, and DELETE routes for categories
 
-![]()
+![POST & PUT](https://media.giphy.com/media/uwG9o4NdMLm7jTJMEa/giphy.gif)
+![DELETE](https://media.giphy.com/media/xqahuvbMG7aGmhGqc1/giphy.gif)
 
 - POST, PUT, and DELETE routes for products
 
